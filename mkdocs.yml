@@ -81,13 +81,7 @@ extra_css:
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
-# Enable search functionality
-plugins:
-  - search:
-      separator: '[\s]+'
-      lang: en
-      prebuild_index: true
-  - git-revision-date
+
 #  - macros
 # - markdownmermaid
   - mermaid2
